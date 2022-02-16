@@ -23,19 +23,19 @@
         
         .title-container img {
             transform: rotate(180deg);
-            margin-right: 14px;
+            margin-right: 15px;
         }
         
         .title {
             font-size: var(--lg);
             font-weight: bold;
-            margin: 10px 0;
+            margin: 10px;
         }
         
         .order {
             display: grid;
             grid-template-columns: auto 1fr;
-            // top: 10px;
+            top: 10px;
             gap: 16px;
             align-items: center;
             background-color: var(--text-input-field);
@@ -63,10 +63,11 @@
             overflow: inherit;
         }
         
-        // .my-order-content {
-        //     overflow-y: scroll;
-        //     max-height: 400px;
-        // }
+        .my-order-content {
+            overflow-y: scroll;
+            max-height: 400px;
+        }
+        
         .my-order-content::-webkit-scrollbar {
             width: 10px;
         }
